@@ -1,0 +1,21 @@
+# MANAGER.PY - delega tarefa para o django-admin.py
+    # Arquivo manager necessita de parametros para execucao
+    # va em edit confuration >> parametres >> runserver
+    # ao ter sucesso abrir essa pagina
+    # Starting development server at http://127.0.0.1:8000/
+    # Arquivo manager e o arquivo de execucao
+
+# COre e Hello_django são a estrutura basica da plataforma
+    # No terminal com o codigo 'django-admin startapp core'
+    # Sera criada uma pasta CORE
+    #Adcionar a pasta CORE ao arquivo setting >> installedapps
+    # Arquivo views na pasta CORE e onde ocorre a codificacao
+
+# WSGI.PY - Intercace de porta de entrada para o servidor web
+# SETTINGS.PY - COnfigurações do django, como conexao de banco de dados, templates, time zone, seguranca
+# URLS.PY - Gerencia as rotas de urls, Arquivo url puxa as sentencas escritas para direcionar a WEB
+# VIEWS.PY - Processa e retorna uma resposta para o cliente que fez a requesição
+# MODELS.PY - Transforma todas as tabelas o modelo python, levando para SQL
+# ADMIN.PY - Interface administrativa gerada pelo django, interface poderosa de manipulacao dos dados
+# STATIC.PY - armazena arquivos estaticos cmo css, jS and other
+# TEMPLATES.PY - armazena os arquivos html
