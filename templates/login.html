@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="submit" method="post">
+    <form action="submit" method="POST">
         {% csrf_token %}
         <div align="center">
             <label>Usuario:</label>
@@ -17,9 +17,9 @@
         </div>
     </form>
     {% for message in messages %}
-    <div align="center">
-        <strong>ERRO! </strong>{{ message }}
-    </div>
+        <div align="center">
+            <strong>ERRO! </strong>{{ message }}
+        </div>
     {% endfor %}
 </body>
 </html>
